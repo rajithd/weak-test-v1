@@ -1,0 +1,17 @@
+# intellij idea
+**/*.iml
+**/.idea
+
+# eclipse
+.classpath
+.project
+.pydevproject
+.settings
+
+# OS Specific
+.DS_Store
+
+# project files
+**/target
+**/.class
+log/**
