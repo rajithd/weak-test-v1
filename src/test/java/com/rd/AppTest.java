@@ -41,5 +41,15 @@ public class AppTest {
         // todo Implement test
     }
 
+    @Test
+    public void testFail1() throws Exception {
+        throw new RuntimeException();
+    }
+
+    @Test
+    public void testFail2() throws Exception {
+        throw new RuntimeException();
+    }
+
 
 }
