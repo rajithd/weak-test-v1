@@ -51,5 +51,21 @@ public class AppTest {
         throw new RuntimeException();
     }
 
+    @Test
+    public void testSOUT() throws Exception {
+        System.out.println("Running testSOUT L1");
+        System.out.println("Running testSOUT L2");
+        System.out.println("Running testSOUT L3");
+        System.out.println(">>>>>>>>>>>>>>>>>>>>");
+    }
+
+    @Test
+    public void testSOUT1() throws Exception {
+        System.out.println("Running testSOUT1 L1");
+        System.out.println("Running testSOUT1 L2");
+        System.out.println("Running testSOUT1 L3");
+        System.out.println(">>>>>>>>>>>>>>>>>>>>");
+    }
+
 
 }
