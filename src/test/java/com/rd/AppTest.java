@@ -3,21 +3,24 @@ package com.rd;
 import org.junit.Assert;
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+
 /**
  * @author Alexey Z
  */
 public class AppTest {
     private final App app = new App();
 
-    @Test
-    public void testMethod1() throws Exception {
-        Assert.assertEquals(app.method1(5), "Less than 7");
-    }
+//    @Test
+//    public void testMethod1() throws Exception {
+//        Assert.assertEquals(app.method1(5), "Less than 7");
+//    }
+//
+//    @Test
+//    public void testDoIt() throws Exception {
+//
+//    }
 
-    @Test
-    public void testDoIt() throws Exception {
-
-    }
 
     @Test
     public void testAnotherVeryUsefulBusinessMethod() throws Exception {
@@ -32,8 +35,8 @@ public class AppTest {
 
     @Test
     public void testMethodNotSoImportant() throws Exception {
-        Assert.assertEquals(11, app.methodNotSoImportant(11));
-        Assert.assertEquals(0, app.methodNotSoImportant(9));
+        assertEquals(11, app.methodNotSoImportant(11));
+        assertEquals(0, app.methodNotSoImportant(9));
     }
 
     @Test
@@ -66,6 +69,47 @@ public class AppTest {
         System.out.println("Running testSOUT1 L3");
         System.out.println(">>>>>>>>>>>>>>>>>>>>");
     }
+
+    @Test
+    public void testA() throws Exception {
+        doTestResult("aa","jj");
+    }
+
+    private static void doTestResult(String contents,
+                                     String goldenResult) {
+
+        doTestResult("","","");
+    }
+
+    private static void doTestResult(String contents,
+                                     String goldenResult, String abc) {
+
+        assertEquals(contents, goldenResult);
+    }
+
+
+
+    @Test
+    public void testCall() throws Exception {
+        u("aa");
+    }
+
+    @Test
+    public void testAnotherCall() throws Exception {
+        Check.check("aa");
+    }
+
+    private void u(String name) {
+        assertEquals(name, "abc");
+    }
+
+//    @Test
+//    public void test1() throws Exception {
+//        if(false){
+//            Assert.assertTrue(true);
+//        }
+//
+//    }
 
 
 }

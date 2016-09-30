@@ -20,6 +20,7 @@ public class App {
         } else {
             System.out.println("I will not " + whatToDo);
         }
+        methodImportant();
     }
 
     public Long methodImportant() {
