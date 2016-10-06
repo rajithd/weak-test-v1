@@ -74,4 +74,9 @@ public class AppTest {
         Assert.assertEquals("abc", appClass.getName());
 
     }
+
+    @Test(expected = NullPointerException.class)
+    public void testNull() throws Exception {
+        throw new NullPointerException();
+    }
 }
