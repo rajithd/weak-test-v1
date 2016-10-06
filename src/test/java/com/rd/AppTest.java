@@ -67,5 +67,11 @@ public class AppTest {
         System.out.println(">>>>>>>>>>>>>>>>>>>>");
     }
 
+    @Test
+    public void testName() throws Exception {
+        AppClass appClass = new AppClass();
+        appClass.setName("abc");
+        Assert.assertEquals("abc", appClass.getName());
 
+    }
 }
