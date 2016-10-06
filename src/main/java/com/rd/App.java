@@ -14,7 +14,7 @@ public class App {
         return new Random().nextInt(8);
     }
 
-    public void anotherVeryUsefulBusinessMethod(String whatToDo){
+    public void anotherVeryUsefulBusinessMethod(String whatToDo) {
         if ("work hard".equals(whatToDo)) {
             System.out.println("Working hard now");
         } else {
@@ -23,7 +23,7 @@ public class App {
     }
 
     public Long methodImportant() {
-        return Math.round(1000*Math.random());
+        return Math.round(1000 * Math.random());
     }
 
     public int methodNotSoImportant(int param) {
@@ -38,9 +38,4 @@ public class App {
         return "Ululam Athenas Ferre";
     }
 
-    public static void main(String args[]) {
-        System.out.println("****************************************");
-        System.out.println("hello world");
-        System.out.println("****************************************");
-    }
 }
