@@ -38,4 +38,8 @@ public class App {
         return "Ululam Athenas Ferre";
     }
 
+    @Override
+    public String toString() {
+        return "App{}";
+    }
 }
