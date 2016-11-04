@@ -10,8 +10,4 @@ public class App1 {
         System.out.println("Exe1");
     }
 
-    @Override
-    public String toString() {
-        return "App1{}";
-    }
 }
