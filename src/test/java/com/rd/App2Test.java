@@ -8,19 +8,19 @@ import static org.junit.Assert.assertTrue;
 /**
  * Created by rajith on 11/4/16.
  */
-public class App1Test {
+public class App2Test {
 
-    private App1 app1;
+    private App2 app2;
 
     @Before
     public void setUp() throws Exception {
-        app1 = new App1();
+        app2 = new App2();
     }
 
-//    @Test
-//    public void testExecute() throws Exception {
-//        app1.execute();
-//        assertTrue(true);
-//    }
+    @Test
+    public void testExecute() throws Exception {
+        app2.execute();
+        assertTrue(true);
+    }
 
 }
