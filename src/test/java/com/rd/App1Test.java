@@ -17,10 +17,10 @@ public class App1Test {
         app1 = new App1();
     }
 
-//    @Test
-//    public void testExecute() throws Exception {
-//        app1.execute();
-//        assertTrue(true);
-//    }
+    @Test
+    public void testExecute() throws Exception {
+        app1.execute();
+        assertTrue(true);
+    }
 
 }
