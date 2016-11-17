@@ -10,6 +10,13 @@ public class AppAnotherClass {
         System.out.println("Exe");
     }
 
+    public void execute1(){
+        System.out.println("ABC");
+        System.out.println("ABC");
+        System.out.println("ABC");
+        System.out.println("ABC");
+    }
+
     @Override
     public int hashCode() {
         return super.hashCode();
