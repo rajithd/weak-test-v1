@@ -22,4 +22,10 @@ public class AppAnotherClassTest {
         appAnotherClass.execute();
         assertTrue(true);
     }
+
+    @Test
+    public void testExecute1() throws Exception {
+        appAnotherClass.execute1();
+        assertTrue(true);
+    }
 }
