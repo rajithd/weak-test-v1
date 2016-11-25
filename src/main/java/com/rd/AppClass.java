@@ -7,6 +7,13 @@ public class AppClass {
 
     private String name;
 
+    public void execute2(){
+        System.out.println("ABC");
+        System.out.println("ABC");
+        System.out.println("ABC");
+        System.out.println("ABC");
+    }
+
     public String getName() {
         return name;
     }
